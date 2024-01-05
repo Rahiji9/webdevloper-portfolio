@@ -3,7 +3,15 @@ body{
   font-family: 'Open Sans', sans-serif;
   font-family: 'Lato',sans-serif;
 }
-
+.section-title{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-description{
+  text-align: center;
+  font-size: 18px;
+}
 
 /* nav releted styel  */
 nav{
@@ -50,16 +58,41 @@ nav a{
 /* header related styel */
 .header{
   background-color: #fff8f3;
+  background-image: url(../images/Profile-Picture-2-Small-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position: bottom right ;
 }
 .banner{
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-.profile .banner {
-  /* margin-left: auto; */
+
+.banner-contant{
   width: 500px;
 }
 
+.banner .profile{
+  /* margin-left: auto; */
+  width: 500px;
+}
+.banner-greating{
+  font-size: 45px;
+  margin-bottom: 0;
+}
+.banner-title{
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+}
 
+/* main section styles */
 
+/* about section  */
+.about{
+  padding: 130px;
+  border-radius: 10px;
+  background-color: aqua;
+  margin: 130px 0px;
+}
