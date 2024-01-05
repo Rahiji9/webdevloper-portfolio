@@ -9,6 +9,7 @@ body{
 nav{
   display: flex;
   justify-content: space-between;
+  margin: 0 200;
 }
 
 .navtitle{
@@ -21,7 +22,7 @@ nav{
   font-size: larger;
 }
 .pri-button{
-  border-radius: 5px;
+  border-radius: 3px;
   background: #fd6e0e;
   border: 0;
   font-style: italic;
@@ -30,7 +31,6 @@ nav{
   color: aliceblue;
   padding: 15px 35px;
 }
-
 
 
 nav > ul{
@@ -46,3 +46,20 @@ nav a{
   color: rgb(36, 2, 2);
   text-decoration: none;
 }
+
+/* header related styel */
+.header{
+  background-color: #fff8f3;
+}
+.banner{
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.profile .banner {
+  /* margin-left: auto; */
+  width: 500px;
+}
+
+
+
